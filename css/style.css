@@ -243,6 +243,40 @@ p {
     margin-right: 20px;
 }
 
+/* Contact */
+#contact-form {
+    padding: 30px;
+}
+
+#contact-form h1{
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+.form-group input:focus, 
+.form-group textarea:focus {
+    outline-color: #f7c08a;
+}
+
+.form-group textarea {
+    height: 200px;
+}
 
 /* Footer */
 #main-footer {
