@@ -39,6 +39,9 @@ p {
     margin: 10px 0;
 }
 
+.clr {
+    clear: both;
+}
 /* Backgrounds */
 .bg-dark {
     background: #333;
@@ -182,4 +185,12 @@ p {
 
 .box i {
     margin-bottom: 10px;
+}
+
+/* Footer */
+#main-footer {
+    background-color: #444;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
 }
