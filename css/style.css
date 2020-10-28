@@ -45,6 +45,16 @@ p {
     color: #fff;
 }
 
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    background: #f7c08a;
+    color: #333;
+}
+
 /* Text */
 .text-primary {
     color: #f7c08a;
@@ -160,4 +170,16 @@ p {
 
 .info-content p {
     padding: 20px 0;
+}
+
+/* Features */
+.box {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 50px;
+}
+
+.box i {
+    margin-bottom: 10px;
 }
