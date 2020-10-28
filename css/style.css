@@ -178,7 +178,7 @@ p {
 /* Features */
 .box {
     float: left;
-    width: 33.3%;
+    width: 33.33%;
     text-align: center;
     padding: 50px;
 }
@@ -246,6 +246,7 @@ p {
 /* Contact */
 #contact-form {
     padding: 30px;
+    text-align: center;
 }
 
 #contact-form h1{
@@ -276,6 +277,14 @@ p {
 
 .form-group textarea {
     height: 200px;
+}
+
+.contact-box {
+    border-right: 1px solid #fff;
+}
+
+.contact-box:last-child {
+    border: none
 }
 
 /* Footer */
