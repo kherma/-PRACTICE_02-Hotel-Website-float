@@ -109,13 +109,14 @@ p {
     padding: 20px;
 }
 
+#navbar ul li {
+    float: left;
+}
+
 #navbar ul {
     float: right;
 }
 
-#navbar ul li {
-    float: left;
-}
 
 #navbar ul li a {
     display: block;
@@ -293,4 +294,123 @@ p {
     text-align: center;
     color: #fff;
     padding: 20px;
+}
+
+/* Mobile */
+@media(max-width: 767px) {
+    
+    /* Navbar */
+    #navbar .logo {
+        float: none;
+        text-align: center;
+    }
+    
+    #navbar ul, #navbar ul li {
+        float: none;
+    }
+
+    #navbar ul li a {
+        padding: 5px;
+        border-bottom: 1px dotted #444;
+    }
+
+    /* Showcase */
+    #showcase, 
+    .showcase-content {
+        height: 600px;
+    }
+    
+    #showcase .showcase-content {
+        padding-top: 80px;
+    }
+
+    #showcase .showcase-content h1{
+        font-size: 50px;
+        line-height: 2em;
+    }
+
+    #showcase .showcase-content p{
+
+        margin: 30px 0;
+    }
+
+    /* Info section */
+    #home-info {
+        height: 450px;
+    }
+    
+    .info-img {
+        display: none;
+    }
+    
+    .info-content {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .info-content p {
+        padding: 20px 0;
+    }
+
+    /* Features */
+    .box {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+    }
+
+    /* About */
+    #about-info .info-left h1 {
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    
+    #about-info .info-left {
+        float: none;
+        width: 100%;
+        min-height: 100%;
+    }
+    
+    #about-info .info-right, 
+    #about-info .info-right img {
+        display: none;
+    }
+
+    /* Testimonials */
+    #testimonials {
+        padding:  30px;
+        height: 900px;
+    }
+
+    #testimonials h2 {
+        font-size: 30px;
+    }
+
+    #testimonials p {
+        font-size: 16px;
+    }
+
+    .testimonial {
+        padding: 10px;
+        margin-bottom: 40px;
+        border-radius: 10px;
+        opacity: 0.8;
+    }
+
+    /* Contact Form */
+    .form-group input, 
+    .form-group textarea {
+        width: 80vw;
+    }
+
+    .contact-box {
+        border-right: none;
+        border-bottom: 1px solid #fff;
+    }
+    
+    .contact-box:last-child {
+        border: none;
+    }
 }
